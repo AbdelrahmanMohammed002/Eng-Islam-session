@@ -1,0 +1,80 @@
+# =============== #
+# Unity generated #
+# =============== #
+[Ll]ibrary/
+[Ll]ocalPackages/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Pp]rojectSettings/Generated/
+UserSettings/
+
+# Unity cache and logs
+MemoryCaptures/
+[Tt]exture2DAtlasCache/
+*.pidb
+*.booproj
+*.svd
+*.userprefs
+*.mode1v3
+*.mode2v3
+*.unityproj
+*.sln.docstates
+
+# Build artifacts
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.jar
+*.war
+*.ipa
+*.xcodeproj/
+*.xcworkspace/
+
+# Crash and log files
+sysinfo.txt
+*.stackdump
+*.log
+
+# ============ #
+# IDE specific #
+# ============ #
+
+# Visual Studio
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userosscache
+*.sln.docstates
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# ============ #
+# OS Specific  #
+# ============ #
+.DS_Store
+Thumbs.db
+
+# ============ #
+# Package cache #
+# ============ #
+/Packages/com.unity.*.tgz
+
+# ============ #
+# Others       #
+# ============ #
+/obj/
+/bin/
+/BuildReport/
