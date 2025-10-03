@@ -134,7 +134,8 @@ namespace realvirtual
         public bool usefingers;
         private float fingerposright, fingerposleft;
         private MU muingripper;
-    
+
+        private Animator GripperAnimator; // Assign in Inspector
 
         new void Awake()
         {
@@ -260,6 +261,7 @@ namespace realvirtual
         {
             Close = true;
             Open = false;
+
         }
 
         public void Stop()
@@ -273,6 +275,7 @@ namespace realvirtual
         {
             Open = true;
             Close = false;
+
         }
 
         
